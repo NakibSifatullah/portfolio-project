@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Tangerine:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(248, 247, 247);
+}
+
+.orange-color{
+    color: rgb(179, 140, 13);
+    font-family: 'Tangerine', cursive;
+    font-weight: 700;
+    font-size: 35px;
+}
+.head-section{
+    display: flex;
+    background-color: #E6E6E6;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+.head-section-left{
+    width: 60%;
+    padding: 10%;
+   
+}
+.head-section-right{
+    width: 40%;
+}
+.head-section-right img{
+    width: 100%;
+}
+.port-des{
+    margin-top: 20px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+
+@media only screen and (max-width:480px)  {
+    .head-section-left{
+        padding: 5%;
+    }
+
+    .port-des{
+        font-size: 7px;
+    }
+    .head-section-left h2{
+        font-size: 15px;
+    }
+    .orange-color{
+        font-size: 20px;
+    }
+
+}
